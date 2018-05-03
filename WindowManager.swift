@@ -13,9 +13,7 @@ protocol UsesWindowManager { }
 
 class WindowManager {
 
-    init() {
-        
-    }
+    init() { }
     
     var currentView: WindowAnimation?
     
