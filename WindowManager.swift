@@ -8,13 +8,6 @@
 
 import UIKit
 
-//0 figure out how to have one window manager for all popups that do this:
-//1. show different views 
-//2. resign views if a new view is called 
-//3. resign views if the current vc leaves view (through notifications)
-// Two instances to resign a view in window: a new view is called; view controller no longer visible
-
-
 
 protocol UsesWindowManager { }
 
